@@ -24,6 +24,7 @@
                     </td>
                     <td>
                         <asp:TextBox ID="TxtUser" runat="server"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TxtUser" ErrorMessage="Username cannot be empty" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
@@ -32,6 +33,7 @@
                     </td>
                     <td>
                         <asp:TextBox ID="TxtPass" runat="server"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TxtPass" ErrorMessage="Password cannot be empty" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
